@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #f4eeff;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 350; /* Can move this to more specific elements to improve readability */
+}
+
+h3 {
+  color: #424874;
+  margin: 0;
+}
+
+hr {
+  border: dotted #d3d3d3 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+nav {
+  padding-top: 16px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #424874;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.navbar {
+  width: 78%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.nav-elements {
+  float: right;
+}
+
+.mission-container {
+  padding: 150px;
+  background: url(../images/kelly-sikkema-kp7ENPlp8no-unsplash.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.mission-container-text {
+  line-height: 2;
+  width: 40%;
+  margin: 0 auto 0 0;
+  color: #f4eeff;
+  font-weight: 500;
+}
+
+.suggested-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.suggested-container-text {
+  color: #424874;
+  font-weight: 500;
+}
+
+.card-top {
+  height: 70px;
+  width: 300px;
+}
+
+.card-bottom {
+
+}
+
+.store-front {
+  display: block;
+  height: 70px;
+  width: 300px;
+  position: relative;
+  object-fit: cover;
+}
+
+.store-name {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.support-button {
+  font-family: arial;
+  color: #424874 !important;
+  font-size: 14px;
+  padding: 9px 17px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #FAFFFE;
+  background: linear-gradient(top,  #F4EEFF,  #F4EEFF);
+  background: -ms-linear-gradient(top,  #F4EEFF,  #F4EEFF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F4EEFF), to(#F4EEFF));
+  background: -moz-linear-gradient(top,  #F4EEFF,  #F4EEFF);
+  border: none;
+}
+.support-button:hover {
+  color: #14396A !important;
+  background: #DCD6F7;
+  background: linear-gradient(top,  #DCD6F7,  #DCD6F7);
+  background: -ms-linear-gradient(top,  #DCD6F7,  #DCD6F7);
+  background: -webkit-gradient(linear, left top, left bottom, from(#DCD6F7), to(#DCD6F7));
+  background: -moz-linear-gradient(top,  #DCD6F7,  #DCD6F7);
+  cursor: pointer;
+}
+
+.suggested-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 2em;
+  grid-column-gap: 1em;
+  justify-items: center;
+  margin-bottom: 2.5em;
+}
+
+.suggested-cards .card {
+    max-width: 330px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  height: 160px;
+  width: 300px;
+  border: 0.5px solid #d3d3d3;
+}
+
+.card-left {
+  grid-row: 2/4;
+  justify-self: right;
+}
+
+.card-upper {
+  grid-row: 1/3;
+}
+
+.card-lower {
+  grid-row: 3/5;
+}
+
+.card-right {
+  grid-row: 2/4;
+  justify-self: left;
+}
+
+.extended-mission-statement {
+  padding: 40px 10rem;
+}
+
+.extended-mission-statement div {
+  line-height: 2;
+  width: 45%;
+  margin: 0 auto 0 0;
+  font-weight: 500;
+}
+
+.coldbar {
+  background-color: #f4eeff;
+  height: 6rem;
+}
+
+.help-references {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #424874;
+  font-weight: 300;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+#brand-name {
+  float: left;
+  padding: 10px 4px;
+  color: #424874;
+  border: 1px solid black;
+}
